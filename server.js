@@ -13,8 +13,13 @@ app.get('/', (req, res) => {
     res.render('home');
 });
 
+
 app.get('/signUp', (req, res) => {
     res.render('signUp');
+});
+
+app.get('/register', (req, res) => {
+    res.render('./users/registration');
 });
 
 app.listen(3000, () => {
