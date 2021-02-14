@@ -13,7 +13,7 @@
   },
   "name": "handles",
   "version": "1.0.0",
-  "main": "server.js sass/mystyless.scss",
+  "main": "server.js sass/mystyles.scss",
   "devDependencies": {
     "bulma": "^0.9.2",
     "install": "^0.13.0",
