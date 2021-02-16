@@ -1,3 +1,27 @@
 @charset "utf-8";
 @import "../node_modules/bulma/bulma.sass";
 
+// setting colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$pistacho: #D0EFB1;
+$grass: #B3D89C;
+$sky:#9DC3C2;
+$water:#77A6B6;
+$bluewater:#4D7298;
+$bluegray: #A0B9BF;
+$gray: #DCDCDD;
+$darkgray: #46494C;
+
+
+
+// updating Bulma's global vars
+$link:$purple;
+// update Bulma's component vars
+
+
+
+.hero {
+    background:$link;
+}
