@@ -12,7 +12,7 @@ $water:#77A6B6;
 $bluewater:#4D7298;
 $bluegray: #A0B9BF;
 $gray: #DCDCDD;
-$darkgray: #46494C;
+$darkgray: #77797c;
 
 
 $link:$sky;
@@ -21,3 +21,12 @@ $link:$sky;
 .hero {
     background:$link;
 }
+
+nav{
+    background-color: $darkgray;
+}
+
+// .footer{
+//     background-color:$darkgray;
+//     color:white; 
+// }
