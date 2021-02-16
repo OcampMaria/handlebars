@@ -1,12 +1,7 @@
 const express = require('express');
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 5000;
 const exphbs = require('express-handlebars');
 const app = express();
-// var sassMiddleware = require("node-sass-middleware");
-// app.use(sassMiddleware({
-//     src: __dirname + "/sass",
-//     dest: '/public'
-//   }));
 
 app.use(express.static("public"));
 
